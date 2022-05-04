@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(220, 227, 245);
+}
+.header, .content, .sidebar, .footer {
+    background-color: #ffffff;
+    padding: 22px 12px 22px 12px;
+}
+
+.grid {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas: "Header"
+                        "content sidebar"
+                        "footer";
+}
+
+.header {
+    grid-area: header;
+}
+
+.content {
+    grid-area: content;
+}
+
+.sidebar {
+    grid-area: sidebar;
+}
+
+.footer {
+    grid-area: footer;
+}

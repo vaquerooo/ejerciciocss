@@ -1,0 +1,39 @@
+#carouselExampleFade {
+    height: 100%;
+    width: 100%;
+}
+
+#container-carrusel {
+    height: 100vh;
+    object-fit: cover;
+}
+
+.foto_carrusel {
+width: 100%;
+height: 100vh;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+
+.fill {
+    object-fit: fill;
+  }
+  
+  .contain {
+    object-fit: contain;
+  }
+  
+  .cover {
+    object-fit: cover;
+  }
+  
+  .none {
+    object-fit: none;
+  }
+  
+  .scale-down {
+    object-fit: scale-down;
+  }
